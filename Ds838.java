@@ -27,4 +27,11 @@ public class Ds838 {
         }
         return res.toString();
     }
+
+    public static void main(String[] args) {
+        String s = ".L.R...LR..L..";
+        Ds838 ds = new Ds838();
+        String result = ds.pushDominoes(s);
+        System.out.println(result); // Output: "LL.RR.LLRRLL.."
+    }
 }
