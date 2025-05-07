@@ -47,4 +47,15 @@ public class DS2071 {
                 m.put(k, c - 1);
         }
     }
+
+    public static void main(String[] args) {
+        int[] tasks = { 3, 5, 8 };
+        int[] workers = { 4, 6, 7 };
+        int pills = 1;
+        int strength = 2;
+        DS2071 ds = new DS2071();
+        Solution solution = ds.new Solution();
+        int result = solution.maxTaskAssign(tasks, workers, pills, strength);
+        System.out.println(result); // Output: 3
+    }
 }
