@@ -57,4 +57,15 @@ public class DS3342 {
         }
         return d[n - 1][m - 1];
     }
+
+    public static void main(String[] args) {
+        DS3342 ds = new DS3342();
+        int[][] moveTime = {
+                { 1, 2, 3 },
+                { 4, 5, 6 },
+                { 7, 8, 9 }
+        };
+        int result = ds.minTimeToReach(moveTime);
+        System.out.println(result); // Output: 12
+    }
 }
