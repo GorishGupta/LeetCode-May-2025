@@ -33,4 +33,13 @@ class Solution {
 
         return ans;
     }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int[] digits = { 1, 2, 3, 4, 5 };
+        int[] result = solution.findEvenNumbers(digits);
+        for (int num : result) {
+            System.out.print(num + " ");
+        }
+    }
 }
