@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class DS3335 {
     public int lengthAfterTransformations(String s, int t) {
         long output = 0;
@@ -26,3 +28,4 @@ public class DS3335 {
         int t = 2;
         System.out.println(ds3335.lengthAfterTransformations(s, t)); // Output: 6
     }
+}
