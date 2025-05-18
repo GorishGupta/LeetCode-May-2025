@@ -49,6 +49,10 @@ public class DS1931 {
     }
 
     public static void main(String[] args) {
+        DS1931 ds1931 = new DS1931();
+        int m = 3;
+        int n = 2;
+        System.out.println(ds1931.colorTheGrid(m, n)); // Output: 12
 
     }
 }
