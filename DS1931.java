@@ -47,4 +47,8 @@ public class DS1931 {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
