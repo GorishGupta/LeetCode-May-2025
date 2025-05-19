@@ -11,6 +11,6 @@ public class DS1550 {
     public static void main(String[] args) {
         DS1550 ds1550 = new DS1550();
         int[] arr = { 1, 2, 3, 4, 5 };
-        System.out.println(ds1550.threeConsecutiveOdds(arr)); // Output: false
+        System.out.println(ds1550.threeConsecutiveOdds(arr));
     }
 }
