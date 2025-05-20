@@ -24,6 +24,10 @@ public class DS3355 {
     }
 
     public static void main(String[] args) {
+        DS3355 ds3355 = new DS3355();
+        int[] nums = { 1, 2, 3 };
+        int[][] queries = { { 0, 1 }, { 1, 2 } };
+        System.out.println(ds3355.isZeroArray(nums, queries)); // Output: false
 
     }
 }
