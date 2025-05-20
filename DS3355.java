@@ -22,4 +22,8 @@ public class DS3355 {
 
         return true;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
