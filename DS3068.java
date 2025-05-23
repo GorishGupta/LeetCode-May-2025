@@ -9,4 +9,8 @@ public class DS3068 {
         }
         return dp[0];
     }
+
+    public static void main(String[] args) {
+
+    }
 }
