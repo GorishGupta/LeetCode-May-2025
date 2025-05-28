@@ -51,6 +51,12 @@ class DS3372 {
     }
 
     public static void main(String[] args) {
+        DS3372 solution = new DS3372();
+        int[][] edges1 = { { 0, 1 }, { 0, 2 }, { 1, 3 } };
+        int[][] edges2 = { { 0, 1 }, { 1, 2 }, { 2, 3 } };
+        int k = 2;
+        int[] result = solution.maxTargetNodes(edges1, edges2, k);
+        System.out.println(Arrays.toString(result)); // Example output
 
     }
 }
