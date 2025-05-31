@@ -1,4 +1,6 @@
-class DS909 {
+import java.util.*;
+
+public class DS909 {
     public int snakesAndLadders(int[][] board) {
         int n = board.length;
         int[] min_rolls = new int[n * n + 1];
