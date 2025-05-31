@@ -29,6 +29,16 @@ public class DS909 {
     }
 
     public static void main(String[] args) {
-
+        DS909 solution = new DS909();
+        int[][] board = {
+                { -1, -1, -1, -1, -1, -1 },
+                { -1, -1, -1, -1, -1, -1 },
+                { -1, -1, 35, -1, 13, -1 },
+                { -1, -1, -1, -1, -1, -1 },
+                { -1, 15, 14, 12, 11, 10 },
+                { 6, 5, 4, 3, 2, 1 }
+        };
+        int result = solution.snakesAndLadders(board);
+        System.out.println("Minimum number of rolls to reach the end: " + result);
     }
 }
