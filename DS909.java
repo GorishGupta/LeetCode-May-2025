@@ -27,4 +27,8 @@ public class DS909 {
         }
         return -1;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
