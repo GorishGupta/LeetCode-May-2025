@@ -9,6 +9,11 @@ public class DS2929 {
     }
 
     public static void main(String[] args) {
+        DS2929 solution = new DS2929();
+        int n = 10; // Total candies
+        int limit = 3; // Maximum candies per person
+        long result = solution.distributeCandies(n, limit);
+        System.out.println("Total ways to distribute candies: " + result);
 
     }
 }
