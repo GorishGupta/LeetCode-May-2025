@@ -47,6 +47,8 @@ public class DS3373 {
     }
 
     public static void main(String[] args) {
+        // Example usage of the DS3373 class
+        // This is just a simple test to demonstrate the functionality.
         DS3373 solution = new DS3373();
         int[][] edges1 = { { 0, 1 }, { 1, 2 }, { 2, 3 } };
         int[][] edges2 = { { 0, 1 }, { 1, 2 } };
