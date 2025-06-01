@@ -7,4 +7,8 @@ public class DS2929 {
         }
         return res;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
